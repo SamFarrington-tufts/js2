@@ -35,9 +35,9 @@
                         "New York", "Pennsylvania", "New Jersey", "Delaware"];
 
         // Goes through the states array and populates the select element with all the states
-        for(var i = 0; i < states.length; i++){
-            var opt = states[i];
-            var el = document.createElement("option");
+        for(i = 0; i < states.length; i++){
+            let opt = states[i];
+            let el = document.createElement("option");
             el.text = opt;
             el.value = opt;
             selectState.add(el);
